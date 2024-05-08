@@ -198,7 +198,7 @@ class LC_Page_Admin_Customer_Edit extends LC_Page_Admin_Ex
     /**
      * パラメーター情報の初期化
      *
-     * @param  array $objFormParam フォームパラメータークラス
+     * @param  SC_FormParam_Ex $objFormParam フォームパラメータークラス
      * @return void
      */
     public function lfInitParam(&$objFormParam)
@@ -238,7 +238,7 @@ class LC_Page_Admin_Customer_Edit extends LC_Page_Admin_Ex
     /**
      * フォーム入力パラメーターエラーチェック
      *
-     * @param  array $objFormParam フォームパラメータークラス
+     * @param  SC_FormParam_Ex $objFormParam フォームパラメータークラス
      * @return array エラー配列
      */
     public function lfCheckError(&$objFormParam)
@@ -279,7 +279,7 @@ class LC_Page_Admin_Customer_Edit extends LC_Page_Admin_Ex
     /**
      * 登録処理
      *
-     * @param  array $objFormParam フォームパラメータークラス
+     * @param  SC_FormParam_Ex $objFormParam フォームパラメータークラス
      * @return integer エラー配列
      */
     public function lfRegistData(&$objFormParam)
